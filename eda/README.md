@@ -1,19 +1,22 @@
-## Exploratory Data Analysis
-  This module helps to resue the EDA workflow for the initial data inspection of tabular datasets.
+# Exploratory Data Analysis (EDA)
 
-##  Features
--  Datasets Information
--  Missing values
--  Duplicates Detection
--  Outliers finding 
--  Linear Correlation profiling 
--  Univariates Profiling
--  Numerical data Inspect
--  Categorical data inspect
+This module provides a reusable EDA workflow for the initial inspection of tabular datasets.
+
+## Features
+
+- Dataset information
+- Missing value analysis
+- Duplicate detection
+- Summary statistics
+- Numerical feature visualization
+- Categorical feature visualization
+- Correlation heatmap
+- Outlier detection
+- Target variable analysis (if available)
 
 ## Files
-- `EDA_FINAL.ipynb` - Main notebook
-- `README.md`- Readme file for EDA 
-- `diabetics_datasets.csv`- Sample Datasets for EDA
-- `requirements.txx`- Required python packgaes 
-- `outputs\` - generated output 
+
+- `initial-inspection-pipeline.ipynb` – Main EDA notebook
+- `sample_dataset.csv` – Example dataset
+- `requirements.txt` – Required Python packages
+- `outputs/` – Generated visualizations
