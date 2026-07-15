@@ -8,7 +8,7 @@ The goal of this repository is to build a reusable toolkit for common machine le
 
 ## Repository Structure
 
-```
+```mermaid
 A[machine-learning-toolkit] --> B[eda]
 ```
 
