@@ -8,7 +8,7 @@ The goal of this repository is to build a reusable toolkit for common machine le
 
 ## Workflow
 
-```mermaid
+```text
 flowchart TD
     A[Load Dataset] --> B[Initial Inspection]
     B --> C[Check Data Types]
