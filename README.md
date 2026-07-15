@@ -6,20 +6,19 @@ A collection of reusable machine learning utilities, workflows, and notebooks de
 
 The goal of this repository is to build a reusable toolkit for common machine learning tasks. Rather than focusing on individual datasets, it provides general-purpose workflows that can be adapted to different tabular datasets.
 
-## Workflow
+## Repository Structure
 
 ```text
-flowchart TD
-    A[Load Dataset] --> B[Initial Inspection]
-    B --> C[Check Data Types]
-    C --> D[Missing Value Analysis]
-    D --> E[Duplicate Detection]
-    E --> F[Summary Statistics]
-    F --> G[Numerical Analysis]
-    G --> H[Categorical Analysis]
-    H --> I[Correlation Analysis]
-    I --> J[Outlier Detection]
-    J --> K[Generate Insights]
+
+    machine-learning-toolkit/
+    │
+    ├──README.md
+            └──eda/
+                │
+                ├──README.md
+                ├──EDA_FINAL.ipynb
+                ├──diabetics_dataset.csv
+                └──requirements.tx
 ```
 
 
@@ -63,7 +62,7 @@ Initial tools for exploratory data analysis, including:
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/<your-username>/machine-learning-toolkit.git
+git clone https://github.com/JayasriMG/machine-learning-toolkit
 ```
 
 2. Install the required libraries.
