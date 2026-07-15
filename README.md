@@ -6,7 +6,7 @@ A collection of reusable machine learning utilities, workflows, and notebooks de
 
 The goal of this repository is to build a reusable toolkit for common machine learning tasks. Rather than focusing on individual datasets, it provides general-purpose workflows that can be adapted to different tabular datasets.
 
-## Repository Structure
+## Workflow
 
 ```mermaid
 flowchart TD
