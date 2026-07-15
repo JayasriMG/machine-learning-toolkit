@@ -9,8 +9,19 @@ The goal of this repository is to build a reusable toolkit for common machine le
 ## Repository Structure
 
 ```mermaid
-A[machine-learning-toolkit] --> B[eda]
+flowchart TD
+    A[Load Dataset] --> B[Initial Inspection]
+    B --> C[Check Data Types]
+    C --> D[Missing Value Analysis]
+    D --> E[Duplicate Detection]
+    E --> F[Summary Statistics]
+    F --> G[Numerical Analysis]
+    G --> H[Categorical Analysis]
+    H --> I[Correlation Analysis]
+    I --> J[Outlier Detection]
+    J --> K[Generate Insights]
 ```
+
 
 ## Current Modules
 
